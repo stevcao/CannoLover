@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lens_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:orientation="horizontal"
+        android:background="@drawable/len_item_bg"
+        android:paddingTop="2dp"
+        android:paddingRight="2dp"
+        >
+
+        <ImageView
+            android:id="@+id/len_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_len_17_40f4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/len_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="14dp" 
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="佳能 EF 17-40mm f/4L USM"/>
+
+            <TextView
+                android:id="@+id/len_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a6a6a6"
+                android:textSize="12dp"
+                android:maxLines="2"
+                android:text="佳能 EF 17-40mm f/4L USM镜头的最近对焦距离为28cm，对角线视角为104度，它能赋予旷野中小动物以生气，并能够得到锐利的图像，是专业摄影师经常使用的一支镜头" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:id="@+id/catigary_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="15dp"
+        android:orientation="horizontal"
+        android:background="#f8f8f8"
+        >
+        <TextView 
+            android:id="@+id/catigary_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="广角"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+</LinearLayout>
