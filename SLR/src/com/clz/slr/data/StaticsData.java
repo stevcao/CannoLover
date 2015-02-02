@@ -15,21 +15,35 @@ public class StaticsData {
 	
 	
 	private static void initLensList() {
-		Lens len = new Lens();
-		len.name = "佳能EF 17-40mm f/4L USM";
-		len.iconid = R.drawable.icon_len_17_40f4;
-		len.description = "佳能 EF 17-40mm f/4L USM镜头的最近对焦距离为28cm，对角线视角为104度，它能赋予旷野中小动物以生气，"
+		
+		//佳能EF 17-40mm f/4L USM
+		Lens len17_40 = new Lens();
+		len17_40.name = "佳能EF 17-40mm f/4L USM";
+		len17_40.iconid = R.drawable.icon_len_17_40f4;
+		len17_40.description = "佳能 EF 17-40mm f/4L USM镜头的最近对焦距离为28cm，对角线视角为104度，它能赋予旷野中小动物以生气，"
 				+ "并能够得到锐利的图像，是专业摄影师经常使用的一支镜头。";
-		len.pics = new int[] {R.drawable.len_17_40f4_show_1, R.drawable.len_17_40f4_show_2};
-		len.detail = "为适应数码单反相机而设计制造，同样适用于传统相机。镜头采用1片玻璃铸模非球面镜片(口径55mm)和2片普通非球面镜片，"
-				+ "以及超级超低色散(超级UD)镜片和优化的镜头镀膜，成像素质十分出色，具有优异的防尘、防潮性能。"
-				+"请注意：本产品虽然具有一定的防水滴性能，但是如果在雨天拍摄时，请尽量不要将本产品淋湿。";
+		len17_40.aperture = "4.0";
+		len17_40.focus = "17-44";
+		len17_40.entry = "EF";
+		len17_40.filters = 77f;
+		len17_40.htmlPath = "file:///android_asset/details/html/17-44/detail.html";
+		
+		//EF 8-15mm f/4L USM 鱼眼
+		Lens len8_15 = new Lens();
+		len8_15.name = "EF 8-15mm f/4L USM 鱼眼";
+		len8_15.iconid = R.drawable.icon_len_8_15f4;
+		len8_15.description = "EF镜头首次推出面向专业摄影师和摄影发烧友的L级鱼眼变焦镜头。";
+		len8_15.aperture = "4.0";
+		len8_15.focus = "17-44";
+		len8_15.entry = "EF";
+		len8_15.filters = 78.5f;
+		len8_15.htmlPath = "file:///android_asset/details/html/8-15/detail.html";
+		
 		for (int i = 0 ; i < 3; i ++) {
 			LensGroup group = new LensGroup();
 			group.name = "广角";
-			for (int j = 0 ; j < 5; j ++) {
-				group.lensList.add(len);
-			}
+			group.lensList.add(len17_40);
+			group.lensList.add(len8_15);
 			lensGroupList.add(group);
 		}
 	}
