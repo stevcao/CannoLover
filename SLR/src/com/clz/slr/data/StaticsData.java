@@ -43,11 +43,11 @@ public class StaticsData {
 		Lens len10_18 = new Lens();
 		len10_18.name = "EF-S 10-18mm f/4.5-5.6 IS STM";
 		len10_18.iconid = R.drawable.icon_len_10_18f4556;
-		len10_18.description = "EF镜头首次推出面向专业摄影师和摄影发烧友的L级鱼眼变焦镜头。";
+		len10_18.description = "换算成35mm规格，相当于约16-29mm的视角，是具有高画质又便于携带的广角变焦镜头。高性价比，可轻松体验广角镜头的乐趣。";
 		len10_18.aperture = "4.5-5.6";
 		len10_18.focus = "10-18";
 		len10_18.entry = "EF-S";
-		len10_18.filters = 78.5f;
+		len10_18.filters = 74.6f;
 		len10_18.htmlPath = "file:///android_asset/details/html/10-18/detail.html";
 
 		LensGroup group = new LensGroup();
