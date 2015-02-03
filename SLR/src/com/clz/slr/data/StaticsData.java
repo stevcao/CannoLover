@@ -61,14 +61,14 @@ public class StaticsData {
 		// EF 16-35mm f/2.8L II USM
 		Lens len16_35f28 = new Lens();
 		len16_35f28.name = "EF 16-35mm f/2.8L II USM";
-		len16_35f28.iconid = R.drawable.icon_len_10_22f23545;
+		len16_35f28.iconid = R.drawable.icon_lens_16_35f28;
 		len16_35f28.description = "专为采用APS-C画幅图像感应器的EOS数码单反相机设计开发，并能够带来真正超广角拍摄乐趣的广角变焦镜头。换算成35mm规格，可覆盖相当于约16mm视角的超广角范围。";
 		len16_35f28.htmlPath = "file:///android_asset/details/html/16-3528/detail.html";
 		
 		// EF 16-35mm f/4L IS USM
 		Lens len16_35f40 = new Lens();
 		len16_35f40.name = "EF 16-35mm f/4L IS USM";
-		len16_35f40.iconid = R.drawable.icon_len_10_22f23545;
+		len16_35f40.iconid = R.drawable.icon_lens_16_35f4;
 		len16_35f40.description = "覆盖支持风光摄影、抓拍等焦段的L级广角变焦镜头。光学系统搭载了IS影像稳定器，最大可获得相当于提高约4级快门速度※1的手抖动补偿效果。扩大了手持拍摄的领域。";
 		len16_35f40.htmlPath = "file:///android_asset/details/html/16-3540/detail.html";
 		
