@@ -107,23 +107,23 @@ public class StaticsData {
 		// EF-S 17-85mm f/4-5.6 IS USM
 		Lens len17_85 = new Lens();
 		len17_85.name = "EF-S 17-85mm f/4-5.6 IS USM";
-		len17_85.iconid = R.drawable.icon_lens_16_35f4;
+		len17_85.iconid = R.drawable.icon_len_17_85;
 		len17_85.description = "覆盖从广角到中远摄的宽广焦段、专为APS-C画幅EOS数码单反相机设计的标准变焦镜头。作为标准变焦镜头，拥有约5倍的高变焦比，适于风光、人像摄影以及抓拍等多种领域。";
 		len17_85.htmlPath = "file:///android_asset/details/html/17-85/detail.html";
 		
 		// EF-S 18-55mm f/3.5-5.6 IS STM
 		Lens len18_55 = new Lens();
 		len18_55.name = "EF-S 18-55mm f/3.5-5.6 IS STM";
-		len18_55.iconid = R.drawable.icon_lens_16_35f4;
+		len18_55.iconid = R.drawable.icon_len_18_55;
 		len18_55.description = "一款APS-C画幅专用的小型标准变焦镜头，以35mm规格换算，可覆盖相当于约29mm的广角端至约88mm的中远摄端的广阔焦段。";
 		len18_55.htmlPath = "file:///android_asset/details/html/18-55/detail.html";
 		
 		// EF-S 18-55mm f/3.5-5.6 IS II
 		Lens len18_55II = new Lens();
 		len18_55II.name = "EF-S 18-55mm f/3.5-5.6 IS II";
-		len18_55II.iconid = R.drawable.icon_lens_16_35f4;
+		len18_55II.iconid = R.drawable.icon_len_18_55ii;
 		len18_55II.description = "这是一款小巧轻便的标准变焦镜头，换算成35mm规格能够覆盖相当于约29-88mm的视角。通过优化配置高精度PMo（树脂成型）非球面镜片，可以对球面像差等多种像差进行有效补偿，实现了全焦段的高画质。";
-		len18_55II.htmlPath = "file:///android_asset/details/html/18-88II/detail.html";
+		len18_55II.htmlPath = "file:///android_asset/details/html/18-55II/detail.html";
 		
 		// EF-S 18-135mm f/3.5-5.6 IS STM
 		Lens len18_135STM = new Lens();
