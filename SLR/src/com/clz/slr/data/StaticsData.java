@@ -192,6 +192,117 @@ public class StaticsData {
 		lensGroupList.add(standardGroup);
 		
 		
+		//########################## 远摄变焦镜头#####################3
+		
+		// EF-S 18-200mm f/3.5-5.6 IS
+		Lens len18_200 = new Lens();
+		len18_200.name = "EF-S 18-200mm f/3.5-5.6 IS";
+		len18_200.iconid = R.drawable.icon_len_28_135;
+		len18_200.description = "覆盖从广角到远摄焦段约11倍的高变焦比、搭载强大手抖动补偿机构的高倍率变焦镜头。专为采用APS-C画幅图像感应器的EOS数码单反相机研发而成。";
+		len18_200.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 28-300mm f/3.5-5.6L IS USM
+		Lens len28_300 = new Lens();
+		len28_300.name = "EF 28-300mm f/3.5-5.6L IS USM";
+		len28_300.iconid = R.drawable.icon_len_28_135;
+		len28_300.description = "覆盖从28mm广角端到300mm远摄端的L级高倍率变焦镜头。约11倍的变焦比，可支持从风光摄影到运动摄影等广泛的拍摄领域。采用3片非球面镜片和3片UD（超低色散）镜片，能够在整个变焦范围内获得符合L级镜头的高画质。";
+		len28_300.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF-S 55-250mm f/4-5.6 IS STM
+		Lens len55_250STM = new Lens();
+		len55_250STM.name = "EF-S 55-250mm f/4-5.6 IS STM";
+		len55_250STM.iconid = R.drawable.icon_len_28_135;
+		len55_250STM.description = "EF-S 55-250mm f/4-5.6 IS STM是采用STM步进马达驱动自动对焦的小型轻量远摄变焦镜头。由于采用了STM步进马达，除静止图像外，在短片拍摄中自动对焦也安静流畅。";
+		len55_250STM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF-S 55-250mm f/4-5.6 IS II
+		Lens len50_250II = new Lens();
+		len50_250II.name = "EF-S 55-250mm f/4-5.6 IS II";
+		len50_250II.iconid = R.drawable.icon_len_28_135;
+		len50_250II.description = "这是一款35mm规格下可以覆盖约88-400mm视角的远摄变焦镜头。此镜头拥有约4.5倍的变焦比，但依然保持了小巧轻便的镜身，非常适于外拍携带。";
+		len50_250II.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 70-200mm f/2.8L IS II USM
+		Lens len70_200F28ISIISUM = new Lens();
+		len70_200F28ISIISUM.name = "EF 70-200mm f/2.8L IS II USM";
+		len70_200F28ISIISUM.iconid = R.drawable.icon_len_28_135;
+		len70_200F28ISIISUM.description = "EF 70-200mm f/2.8L IS II USM是专业摄影师和摄影发烧友常用远摄变焦镜头的人气款EF 70-200mm f/2.8L IS USM的进化版，光圈大，十分明亮。在体育摄影、人像摄影、风光摄影等领域均有广泛应用。";
+		len70_200F28ISIISUM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 70-200mm f/2.8L USM
+		Lens len70_200F28USM = new Lens();
+		len70_200F28USM.name = "EF 70-200mm f/2.8L USM";
+		len70_200F28USM.iconid = R.drawable.icon_len_28_135;
+		len70_200F28USM.description = "覆盖从70mm到200mm常用焦段的大光圈远摄变焦镜头。未搭载手抖动补偿机构IS影像稳定器，镜头结构设计简洁。与EF 70-200mm f/2.8L IS II USM相比，此款镜头在最大直径、长度以及重量方面略显小型、轻便。";
+		len70_200F28USM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 70-200mm f/4L IS USM
+		Lens len70_200F4ISUSM = new Lens();
+		len70_200F4ISUSM.name = "EF 70-200mm f/4L IS USM";
+		len70_200F4ISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_200F4ISUSM.description = "这是一款具有出色便携性的高性能L级远摄变焦镜头。在颇受好评的EF 70-200mm f/4L USM基础上，增添了高性能的手抖动补偿机构IS影像稳定器，实现了更高的机动性。";
+		len70_200F4ISUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 70-200mm f/4L USM
+		Lens len70_200F4USM = new Lens();
+		len70_200F4USM.name = "EF 70-200mm f/4L USM";
+		len70_200F4USM.iconid = R.drawable.icon_len_28_135;
+		len70_200F4USM.description = "具有出色便携性的L级远摄变焦镜头。在佳能70-200mm系列镜头中镜身最小且重量最轻，性价比较为出众。镜头基本结构与EF 70-200mm f/4L IS USM大致相同，二者的区别在于是否搭载手抖动补偿机构。";
+		len70_200F4USM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 70-300mm f/4-5.6L IS USM
+		Lens len70_300LISUSM = new Lens();
+		len70_300LISUSM.name = "EF 70-300mm f/4-5.6L IS USM";
+		len70_300LISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_300LISUSM.description = "作为一款可覆盖70mm至300mm宽广焦距范围的L级远摄变焦镜头，当搭配APS-C画幅EOS数码相机使用时可获得相当于约112-480mm的超远摄视角效果。";
+		len70_300LISUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		
+		// EF 70-300mm f/4.5-5.6 DO IS USM
+		Lens len70_300DOISUSM = new Lens();
+		len70_300DOISUSM.name = "EF 70-300mm f/4.5-5.6 DO IS USM";
+		len70_300DOISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_300DOISUSM.description = "搭载有DO多层衍射光学元件的轻便型高画质远摄变焦镜头。镜身全长仅约99.9毫米，与标准变焦镜头大致相同。";
+		len70_300DOISUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 70-300mm f/4-5.6 IS USM
+		Lens len70_300ISUSM = new Lens();
+		len70_300ISUSM.name = "EF 70-300mm f/4-5.6 IS USM";
+		len70_300ISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_300ISUSM.description = "一款尺寸适当、价格适中且能够体验真正远摄乐趣的远摄变焦镜头。搭配APS-C画幅EOS数码相机，可获得相当于约112-480mm的视角，能够充分拉近被摄体，拍出有冲击力的照片。";
+		len70_300ISUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 75-300mm f/4-5.6 III USM
+		Lens len70_300IIIUSM = new Lens();
+		len70_300IIIUSM.name = "EF 75-300mm f/4-5.6 III USM";
+		len70_300IIIUSM.iconid = R.drawable.icon_len_28_135;
+		len70_300IIIUSM.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头驱动方面采用了微型USM超声波马达，实现了安静的自动对焦。";
+		len70_300IIIUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 75-300mm f/4-5.6 III
+		Lens len75_300III = new Lens();
+		len75_300III.name = "EF 75-300mm f/4-5.6 III";
+		len75_300III.iconid = R.drawable.icon_len_28_135;
+		len75_300III.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头重量较轻约480克，加之镜身无起伏的设计，具有出众的携带性。";
+		len75_300III.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 100-400mm f/4.5-5.6L IS II USM
+		Lens len100_400II = new Lens();
+		len100_400II.name = "EF 100-400mm f/4.5-5.6L IS II USM";
+		len100_400II.iconid = R.drawable.icon_len_28_135;
+		len100_400II.description = "覆盖从100mm到超远摄400mm焦距范围的L级远摄变焦镜头。继承得到专业摄影师好评的前款机型的性能并大幅提高了画质和操作性。";
+		len100_400II.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		// EF 100-400mm f/4.5-5.6L IS USM
+		Lens len100_400 = new Lens();
+		len100_400.name = "EF 100-400mm f/4.5-5.6L IS USM";
+		len100_400.iconid = R.drawable.icon_len_28_135;
+		len100_400.description = "具有推拉式变焦机构和约4倍变焦比的正宗超远摄变焦镜头。在APS-C画幅下可覆盖相当于约160-640mm的视角范围，能够将更远处的小被摄体拉近拍摄。";
+		len100_400.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		
+		LensGroup farGroup = new LensGroup();
+		farGroup.name = "远摄变焦";
+		
 	}
 
 	static {
