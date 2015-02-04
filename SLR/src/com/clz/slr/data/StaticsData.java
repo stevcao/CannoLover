@@ -197,56 +197,56 @@ public class StaticsData {
 		// EF-S 18-200mm f/3.5-5.6 IS
 		Lens len18_200 = new Lens();
 		len18_200.name = "EF-S 18-200mm f/3.5-5.6 IS";
-		len18_200.iconid = R.drawable.icon_len_28_135;
+		len18_200.iconid = R.drawable.icon_len_18_200;
 		len18_200.description = "覆盖从广角到远摄焦段约11倍的高变焦比、搭载强大手抖动补偿机构的高倍率变焦镜头。专为采用APS-C画幅图像感应器的EOS数码单反相机研发而成。";
 		len18_200.htmlPath = "file:///android_asset/details/html/far/18-200/detail.html";
 		
 		// EF 28-300mm f/3.5-5.6L IS USM
 		Lens len28_300 = new Lens();
 		len28_300.name = "EF 28-300mm f/3.5-5.6L IS USM";
-		len28_300.iconid = R.drawable.icon_len_28_135;
+		len28_300.iconid = R.drawable.icon_len_28_300;
 		len28_300.description = "覆盖从28mm广角端到300mm远摄端的L级高倍率变焦镜头。约11倍的变焦比，可支持从风光摄影到运动摄影等广泛的拍摄领域。采用3片非球面镜片和3片UD（超低色散）镜片，能够在整个变焦范围内获得符合L级镜头的高画质。";
 		len28_300.htmlPath = "file:///android_asset/details/html/far/28-300/detail.html";
 		
 		// EF-S 55-250mm f/4-5.6 IS STM
 		Lens len55_250STM = new Lens();
 		len55_250STM.name = "EF-S 55-250mm f/4-5.6 IS STM";
-		len55_250STM.iconid = R.drawable.icon_len_28_135;
+		len55_250STM.iconid = R.drawable.icon_len_55_250;
 		len55_250STM.description = "EF-S 55-250mm f/4-5.6 IS STM是采用STM步进马达驱动自动对焦的小型轻量远摄变焦镜头。由于采用了STM步进马达，除静止图像外，在短片拍摄中自动对焦也安静流畅。";
 		len55_250STM.htmlPath = "file:///android_asset/details/html/far/55-250STM/detail.html";
 		
 		// EF-S 55-250mm f/4-5.6 IS II
 		Lens len55_250II = new Lens();
 		len55_250II.name = "EF-S 55-250mm f/4-5.6 IS II";
-		len55_250II.iconid = R.drawable.icon_len_28_135;
+		len55_250II.iconid = R.drawable.icon_len_55_250;
 		len55_250II.description = "这是一款35mm规格下可以覆盖约88-400mm视角的远摄变焦镜头。此镜头拥有约4.5倍的变焦比，但依然保持了小巧轻便的镜身，非常适于外拍携带。";
 		len55_250II.htmlPath = "file:///android_asset/details/html/far/55-250II/detail.html";
 		
 		// EF 70-200mm f/2.8L IS II USM
 		Lens len70_200F28ISIISUM = new Lens();
 		len70_200F28ISIISUM.name = "EF 70-200mm f/2.8L IS II USM";
-		len70_200F28ISIISUM.iconid = R.drawable.icon_len_28_135;
+		len70_200F28ISIISUM.iconid = R.drawable.icon_len_70_200;
 		len70_200F28ISIISUM.description = "EF 70-200mm f/2.8L IS II USM是专业摄影师和摄影发烧友常用远摄变焦镜头的人气款EF 70-200mm f/2.8L IS USM的进化版，光圈大，十分明亮。在体育摄影、人像摄影、风光摄影等领域均有广泛应用。";
 		len70_200F28ISIISUM.htmlPath = "file:///android_asset/details/html/far/70-200F28II/detail.html";
 		
 		// EF 70-200mm f/2.8L USM
 		Lens len70_200F28USM = new Lens();
 		len70_200F28USM.name = "EF 70-200mm f/2.8L USM";
-		len70_200F28USM.iconid = R.drawable.icon_len_28_135;
+		len70_200F28USM.iconid = R.drawable.icon_len_70_200is;
 		len70_200F28USM.description = "覆盖从70mm到200mm常用焦段的大光圈远摄变焦镜头。未搭载手抖动补偿机构IS影像稳定器，镜头结构设计简洁。与EF 70-200mm f/2.8L IS II USM相比，此款镜头在最大直径、长度以及重量方面略显小型、轻便。";
 		len70_200F28USM.htmlPath = "file:///android_asset/details/html/far/70-200F28USM/detail.html";
 		
 		// EF 70-200mm f/4L IS USM
 		Lens len70_200F4ISUSM = new Lens();
 		len70_200F4ISUSM.name = "EF 70-200mm f/4L IS USM";
-		len70_200F4ISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_200F4ISUSM.iconid = R.drawable.icon_len_70_200f4;
 		len70_200F4ISUSM.description = "这是一款具有出色便携性的高性能L级远摄变焦镜头。在颇受好评的EF 70-200mm f/4L USM基础上，增添了高性能的手抖动补偿机构IS影像稳定器，实现了更高的机动性。";
 		len70_200F4ISUSM.htmlPath = "file:///android_asset/details/html/far/70-200F40IS/detail.html";
 		
 		// EF 70-200mm f/4L USM
 		Lens len70_200F4USM = new Lens();
 		len70_200F4USM.name = "EF 70-200mm f/4L USM";
-		len70_200F4USM.iconid = R.drawable.icon_len_28_135;
+		len70_200F4USM.iconid = R.drawable.icon_len_70_200f4;
 		len70_200F4USM.description = "具有出色便携性的L级远摄变焦镜头。在佳能70-200mm系列镜头中镜身最小且重量最轻，性价比较为出众。镜头基本结构与EF 70-200mm f/4L IS USM大致相同，二者的区别在于是否搭载手抖动补偿机构。";
 		len70_200F4USM.htmlPath = "file:///android_asset/details/html/far/70-200F40/detail.html";
 		
@@ -306,12 +306,16 @@ public class StaticsData {
 		farGroup.lensList.add(len28_300);
 		farGroup.lensList.add(len55_250STM);
 		farGroup.lensList.add(len55_250II);
-		farGroup.lensList.add(len70_200F28ISIISUM);
+		
 		farGroup.lensList.add(len70_200F28USM);
+		farGroup.lensList.add(len70_200F28ISIISUM);
+		farGroup.lensList.add(len70_200F4USM);
 		farGroup.lensList.add(len70_200F4ISUSM);
+		
 		farGroup.lensList.add(len70_300LISUSM);
 		farGroup.lensList.add(len70_300DOISUSM);
 		farGroup.lensList.add(len70_300ISUSM);
+		
 		farGroup.lensList.add(len75_300IIIUSM);
 		farGroup.lensList.add(len75_300III);
 		farGroup.lensList.add(len100_400II);
