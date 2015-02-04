@@ -253,7 +253,7 @@ public class StaticsData {
 		// EF 70-300mm f/4-5.6L IS USM
 		Lens len70_300LISUSM = new Lens();
 		len70_300LISUSM.name = "EF 70-300mm f/4-5.6L IS USM";
-		len70_300LISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_300LISUSM.iconid = R.drawable.icon_len_70_300l;
 		len70_300LISUSM.description = "作为一款可覆盖70mm至300mm宽广焦距范围的L级远摄变焦镜头，当搭配APS-C画幅EOS数码相机使用时可获得相当于约112-480mm的超远摄视角效果。";
 		len70_300LISUSM.htmlPath = "file:///android_asset/details/html/far/70-300L/detail.html";
 		
@@ -261,14 +261,14 @@ public class StaticsData {
 		// EF 70-300mm f/4.5-5.6 DO IS USM
 		Lens len70_300DOISUSM = new Lens();
 		len70_300DOISUSM.name = "EF 70-300mm f/4.5-5.6 DO IS USM";
-		len70_300DOISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_300DOISUSM.iconid = R.drawable.icon_len_70_300do;
 		len70_300DOISUSM.description = "搭载有DO多层衍射光学元件的轻便型高画质远摄变焦镜头。镜身全长仅约99.9毫米，与标准变焦镜头大致相同。";
 		len70_300DOISUSM.htmlPath = "file:///android_asset/details/html/far/70-300DO/detail.html";
 		
 		// EF 70-300mm f/4-5.6 IS USM
 		Lens len70_300ISUSM = new Lens();
 		len70_300ISUSM.name = "EF 70-300mm f/4-5.6 IS USM";
-		len70_300ISUSM.iconid = R.drawable.icon_len_28_135;
+		len70_300ISUSM.iconid = R.drawable.icon_len_70_300;
 		len70_300ISUSM.description = "一款尺寸适当、价格适中且能够体验真正远摄乐趣的远摄变焦镜头。搭配APS-C画幅EOS数码相机，可获得相当于约112-480mm的视角，能够充分拉近被摄体，拍出有冲击力的照片。";
 		len70_300ISUSM.htmlPath = "file:///android_asset/details/html/far/70-300/detail.html";
 		
