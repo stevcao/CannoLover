@@ -35,7 +35,7 @@ public class StaticsData {
 		// EF 8-15mm f/4L USM 鱼眼
 		Lens len8_15 = new Lens();
 		len8_15.name = "EF 8-15mm f/4L USM 鱼眼";
-		len8_15.iconid = R.drawable.icon_len_8_15f4;
+		len8_15.iconid = R.drawable.icon_len_8_15;
 		len8_15.description = "EF镜头首次推出面向专业摄影师和摄影发烧友的L级鱼眼变焦镜头。";
 		len8_15.aperture = "4.0";
 		len8_15.focus = "17-44";
@@ -57,7 +57,7 @@ public class StaticsData {
 		// EF-S 10-22mm f/3.5-4.5 USM
 		Lens len10_22 = new Lens();
 		len10_22.name = "EF-S 10-22mm f/3.5-4.5 USM";
-		len10_22.iconid = R.drawable.icon_len_10_22f23545;
+		len10_22.iconid = R.drawable.icon_len_10_22f3545;
 		len10_22.description = "专为采用APS-C画幅图像感应器的EOS数码单反相机设计开发，并能够带来真正超广角拍摄乐趣的广角变焦镜头。换算成35mm规格，可覆盖相当于约16mm视角的超广角范围。";
 		len10_22.htmlPath = "file:///android_asset/details/html/10-22/detail.html";
 
@@ -135,42 +135,42 @@ public class StaticsData {
 		// EF-S 18-135mm f/3.5-5.6 IS
 		Lens len18_135 = new Lens();
 		len18_135.name = "EF-S 18-135mm f/3.5-5.6 IS";
-		len18_135.iconid = R.drawable.icon_lens_16_35f4;
+		len18_135.iconid = R.drawable.icon_len_18_135;
 		len18_135.description = "具有高达约7.5倍变焦比的高倍率标准变焦镜头，其焦距换算为35mm规格后能够覆盖约29-216mm的视角。搭载的IS影像稳定器能够在广角端到远摄端的全焦段都得到最大相当于约4级快门速度的手抖动补偿效果，并可自动识别普通拍摄与追随拍摄，选择合适的IS模式。";
 		len18_135.htmlPath = "file:///android_asset/details/html/18-135/detail.html";
 		
 		// EF 24-70mm f/2.8L II USM
 		Lens len24_70II = new Lens();
 		len24_70II.name = "EF 24-70mm f/2.8L II USM";
-		len24_70II.iconid = R.drawable.icon_lens_16_35f4;
+		len24_70II.iconid = R.drawable.icon_len_24_70ii;
 		len24_70II.description = "覆盖24mm广角到70mm中远摄焦段的L级标准变焦镜头。F2.8的最大光圈在整个变焦范围内保持明亮，可应对风光、人像摄影等广泛领域。";
 		len24_70II.htmlPath = "file:///android_asset/details/html/24-70II/detail.html";
 		
 		// EF 24-70mm f/4L IS USM
 		Lens len24_70IS = new Lens();
 		len24_70IS.name = "EF 24-70mm f/4L IS USM";
-		len24_70IS.iconid = R.drawable.icon_lens_16_35f4;
+		len24_70IS.iconid = R.drawable.icon_len_24_70is;
 		len24_70IS.description = "EF 24-70mm f/4L IS USM是覆盖从24mm广角到70mm中远摄焦段的L级标准变焦镜头。广泛适用于风光、抓拍和人像等多种拍摄场景，通过操作变焦环还可以切换到微距模式※1，进行最大放大倍率约0.7倍的微距拍摄。";
 		len24_70IS.htmlPath = "file:///android_asset/details/html/24-70IS/detail.html";
 		
 		// EF 24−105mm f/3.5-5.6 IS STM
 		Lens len24_105STM = new Lens();
 		len24_105STM.name = "EF 24−105mm f/3.5-5.6 IS STM";
-		len24_105STM.iconid = R.drawable.icon_lens_16_35f4;
+		len24_105STM.iconid = R.drawable.icon_len_24_105stm;
 		len24_105STM.description = "这是一款性价比很高的标准变焦镜头，焦距覆盖广角到中远摄，可以应对风景以及人像等多种场景的拍摄。在实现了接近L镜头的高画质的同时，还保持了轻量化设计，机身仅约525克。";
 		len24_105STM.htmlPath = "file:///android_asset/details/html/24-105STM/detail.html";
 		
 		// EF 24-105mm f/4L IS USM
 		Lens len24_105USM = new Lens();
 		len24_105USM.name = "EF 24-105mm f/4L IS USM";
-		len24_105USM.iconid = R.drawable.icon_lens_16_35f4;
+		len24_105USM.iconid = R.drawable.icon_len_24_105usm;
 		len24_105USM.description = "覆盖从24mm广角到105mm中远摄焦段的L级标准变焦镜头。采用了恒定F4的最大光圈设计，使镜头口径得以缩小，同时较好地抑制了球面像差等的发生。不但覆盖了变焦比约4.4倍的宽广焦段，还实现了镜身整体的小型化。";
 		len24_105USM.htmlPath = "file:///android_asset/details/html/24-105USM/detail.html";
 		
 		// EF 28-135mm f/3.5-5.6 IS USM
 		Lens len28_135 = new Lens();
 		len28_135.name = "EF 28-135mm f/3.5-5.6 IS USM";
-		len28_135.iconid = R.drawable.icon_lens_16_35f4;
+		len28_135.iconid = R.drawable.icon_len_28_135;
 		len28_135.description = "变焦比约为5倍、覆盖28mm广角端且具有宽广焦段的标准变焦镜头。搭载有可在整个变焦范围内发挥较高补偿效果的手抖动补偿机构IS影像稳定器，使手持拍摄领域得到进一步扩展。镜头驱动方面采用了环形USM超声波马达，对焦时几乎没有动作音。";
 		len28_135.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
 		
