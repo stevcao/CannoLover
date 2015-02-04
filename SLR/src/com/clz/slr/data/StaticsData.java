@@ -216,11 +216,11 @@ public class StaticsData {
 		len55_250STM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
 		
 		// EF-S 55-250mm f/4-5.6 IS II
-		Lens len50_250II = new Lens();
-		len50_250II.name = "EF-S 55-250mm f/4-5.6 IS II";
-		len50_250II.iconid = R.drawable.icon_len_28_135;
-		len50_250II.description = "这是一款35mm规格下可以覆盖约88-400mm视角的远摄变焦镜头。此镜头拥有约4.5倍的变焦比，但依然保持了小巧轻便的镜身，非常适于外拍携带。";
-		len50_250II.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		Lens len55_250II = new Lens();
+		len55_250II.name = "EF-S 55-250mm f/4-5.6 IS II";
+		len55_250II.iconid = R.drawable.icon_len_28_135;
+		len55_250II.description = "这是一款35mm规格下可以覆盖约88-400mm视角的远摄变焦镜头。此镜头拥有约4.5倍的变焦比，但依然保持了小巧轻便的镜身，非常适于外拍携带。";
+		len55_250II.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
 		
 		// EF 70-200mm f/2.8L IS II USM
 		Lens len70_200F28ISIISUM = new Lens();
@@ -273,11 +273,11 @@ public class StaticsData {
 		len70_300ISUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
 		
 		// EF 75-300mm f/4-5.6 III USM
-		Lens len70_300IIIUSM = new Lens();
-		len70_300IIIUSM.name = "EF 75-300mm f/4-5.6 III USM";
-		len70_300IIIUSM.iconid = R.drawable.icon_len_28_135;
-		len70_300IIIUSM.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头驱动方面采用了微型USM超声波马达，实现了安静的自动对焦。";
-		len70_300IIIUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
+		Lens len75_300IIIUSM = new Lens();
+		len75_300IIIUSM.name = "EF 75-300mm f/4-5.6 III USM";
+		len75_300IIIUSM.iconid = R.drawable.icon_len_28_135;
+		len75_300IIIUSM.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头驱动方面采用了微型USM超声波马达，实现了安静的自动对焦。";
+		len75_300IIIUSM.htmlPath = "file:///android_asset/details/html/28-135/detail.html";
 		
 		// EF 75-300mm f/4-5.6 III
 		Lens len75_300III = new Lens();
@@ -302,7 +302,21 @@ public class StaticsData {
 		
 		LensGroup farGroup = new LensGroup();
 		farGroup.name = "远摄变焦";
-		
+		farGroup.lensList.add(len18_200);
+		farGroup.lensList.add(len28_300);
+		farGroup.lensList.add(len55_250STM);
+		farGroup.lensList.add(len55_250II);
+		farGroup.lensList.add(len70_200F28ISIISUM);
+		farGroup.lensList.add(len70_200F28USM);
+		farGroup.lensList.add(len70_200F4ISUSM);
+		farGroup.lensList.add(len70_300LISUSM);
+		farGroup.lensList.add(len70_300DOISUSM);
+		farGroup.lensList.add(len70_300ISUSM);
+		farGroup.lensList.add(len75_300IIIUSM);
+		farGroup.lensList.add(len75_300III);
+		farGroup.lensList.add(len100_400II);
+		farGroup.lensList.add(len100_400);
+		lensGroupList.add(farGroup);
 	}
 
 	static {
