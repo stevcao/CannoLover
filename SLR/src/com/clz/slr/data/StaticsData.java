@@ -318,14 +318,21 @@ public class StaticsData {
 		farGroup.lensList.add(len100_400);
 		lensGroupList.add(farGroup);
 		
+		
+		//#######################超远摄变焦########################3
+		
 		// EF 200-400mm f/4L IS USM EXTENDER 1.4X
 		Lens len200_400 = new Lens();
 		len200_400.name = "EF 200-400mm f/4L IS USM EXTENDER 1.4X";
 		len200_400.iconid = R.drawable.icon_len_28_135;
 		len200_400.description = "EF 200-400mm f/4L IS USM EXTENDER 1.4X内置增倍镜，是一款可广泛覆盖约200-560mm焦段的超远摄变焦镜头。对 于体育或新闻摄影，以及需以超远摄焦段拍摄的野外摄影等，此镜头可谓非常方便，能够应对此类不便频繁更换镜头的拍摄场景。";
 		len200_400.htmlPath = "file:///android_asset/details/html/very_far/200-400/detail.html";
+		
 		LensGroup veryFarGroup = new LensGroup();
 		veryFarGroup.name = "超远摄变焦";
+		veryFarGroup.lensList.add(len200_400);
+		
+		lensGroupList.add(veryFarGroup);
 	}
 
 	static {
