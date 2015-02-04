@@ -128,7 +128,7 @@ public class StaticsData {
 		// EF-S 18-135mm f/3.5-5.6 IS STM
 		Lens len18_135STM = new Lens();
 		len18_135STM.name = "EF-S 18-135mm f/3.5-5.6 IS STM";
-		len18_135STM.iconid = R.drawable.icon_lens_16_35f4;
+		len18_135STM.iconid = R.drawable.icon_len_18_135_stm;
 		len18_135STM.description = "EF-S 18-135mm f/3.5-5.6 IS STM是一款高倍率变焦镜头，安装在APS-C画幅EOS数码相机上时以35mm规格换算可获得相当于约29-216mm的视角。";
 		len18_135STM.htmlPath = "file:///android_asset/details/html/18-135STM/detail.html";
 		
