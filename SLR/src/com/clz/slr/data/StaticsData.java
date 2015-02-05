@@ -275,28 +275,28 @@ public class StaticsData {
 		// EF 75-300mm f/4-5.6 III USM
 		Lens len75_300IIIUSM = new Lens();
 		len75_300IIIUSM.name = "EF 75-300mm f/4-5.6 III USM";
-		len75_300IIIUSM.iconid = R.drawable.icon_len_28_135;
+		len75_300IIIUSM.iconid = R.drawable.icon_len_75_300;
 		len75_300IIIUSM.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头驱动方面采用了微型USM超声波马达，实现了安静的自动对焦。";
 		len75_300IIIUSM.htmlPath = "file:///android_asset/details/html/far/75-300USM/detail.html";
 		
 		// EF 75-300mm f/4-5.6 III
 		Lens len75_300III = new Lens();
 		len75_300III.name = "EF 75-300mm f/4-5.6 III";
-		len75_300III.iconid = R.drawable.icon_len_28_135;
+		len75_300III.iconid = R.drawable.icon_len_75_300;
 		len75_300III.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头重量较轻约480克，加之镜身无起伏的设计，具有出众的携带性。";
 		len75_300III.htmlPath = "file:///android_asset/details/html/far/75-300/detail.html";
 		
 		// EF 100-400mm f/4.5-5.6L IS II USM
 		Lens len100_400II = new Lens();
 		len100_400II.name = "EF 100-400mm f/4.5-5.6L IS II USM";
-		len100_400II.iconid = R.drawable.icon_len_28_135;
+		len100_400II.iconid = R.drawable.icon_len_100_400;
 		len100_400II.description = "覆盖从100mm到超远摄400mm焦距范围的L级远摄变焦镜头。继承得到专业摄影师好评的前款机型的性能并大幅提高了画质和操作性。";
 		len100_400II.htmlPath = "file:///android_asset/details/html/far/100-400II/detail.html";
 		
 		// EF 100-400mm f/4.5-5.6L IS USM
 		Lens len100_400 = new Lens();
 		len100_400.name = "EF 100-400mm f/4.5-5.6L IS USM";
-		len100_400.iconid = R.drawable.icon_len_28_135;
+		len100_400.iconid = R.drawable.icon_len_100_400;
 		len100_400.description = "具有推拉式变焦机构和约4倍变焦比的正宗超远摄变焦镜头。在APS-C画幅下可覆盖相当于约160-640mm的视角范围，能够将更远处的小被摄体拉近拍摄。";
 		len100_400.htmlPath = "file:///android_asset/details/html/far/100-400/detail.html";
 		
