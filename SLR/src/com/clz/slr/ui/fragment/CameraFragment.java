@@ -35,7 +35,7 @@ public class CameraFragment extends Fragment {
 	private View mRootView = null;
 	private ListView mCameraList = null;
 	
-	private LensAdapter mAdapter = null;
+	//private LensAdapter mAdapter = null;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
