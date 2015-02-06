@@ -32,7 +32,6 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:text="佳能 EF 17-40mm f/4L USM"
                 android:textColor="#000000"
                 android:textSize="14dp"
                 android:textStyle="bold" />
@@ -42,7 +41,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxLines="2"
-                android:text="佳能 EF 17-40mm f/4L USM镜头的最近对焦距离为28cm，对角线视角为104度，它能赋予旷野中小动物以生气，并能够得到锐利的图像，是专业摄影师经常使用的一支镜头"
                 android:textColor="#a6a6a6"
                 android:textSize="12dp" />
         </LinearLayout>
