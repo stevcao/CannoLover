@@ -15,7 +15,7 @@ import com.clz.slr.common.Constants;
 import com.clz.slr.data.Lens;
 import com.clz.slr.uitls.DisplayUtils;
 
-public class CameraInfoActivity extends Activity {
+public class LensInfoActivity extends Activity {
 
 	LinearLayout mDetailLayout = null;
 	WebView webView = null;
