@@ -1,57 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="15dp"
-    android:paddingRight="15dp"
-    android:orientation="horizontal" >
+    android:layout_height="wrap_content"
+    android:background="@drawable/len_item_bg"
+    android:orientation="vertical" >
 
-    <ImageView
-        android:id="@+id/ca_icon"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/icon_len_17_40f4" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/ca_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_len_17_40f4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/ca_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="佳能 EF 17-40mm f/4L USM"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ca_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:paddingTop="3dp"
+                    android:text="佳能 EF 17-40mm f/4L USM镜头的最近对焦距离为28cm，对角线视角为104度，它能赋予旷野中小动物以生气，并能够得到锐利的图像，是专业摄影师经常使用的一支镜头"
+                    android:textColor="#a6a6a6"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:paddingLeft="15dp"
+                android:src="@drawable/ie_arrow1_disable" />
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp" >
+        android:paddingLeft="15dp" >
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:paddingTop="5dp">
-
-            <TextView
-                android:id="@+id/ca_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:singleLine="true"
-                android:text="佳能 EF 17-40mm f/4L USM"
-                android:textColor="#000000"
-                android:textSize="14dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/ca_description"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:maxLines="2"
-                android:paddingTop="3dp"
-                android:text="佳能 EF 17-40mm f/4L USM镜头的最近对焦距离为28cm，对角线视角为104度，它能赋予旷野中小动物以生气，并能够得到锐利的图像，是专业摄影师经常使用的一支镜头"
-                android:textColor="#a6a6a6"
-                android:textSize="12dp" />
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="60dp"
-            android:paddingLeft="15dp"
-            android:src="@drawable/ie_arrow1_normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#a6a6a6"
+            android:paddingLeft="15dp" />
     </LinearLayout>
 
 </LinearLayout>

@@ -25,11 +25,8 @@ import com.clz.slr.ui.activity.LensListActivity;
 
 
 /**
- * 聊天Fragment的界面
  * 
- * http://blog.csdn.net/guolin_blog/article/details/26365683
- * 
- * @author guolin
+ * @author stevcao
  */
 public class LensCatigoryFragment extends Fragment {
 	

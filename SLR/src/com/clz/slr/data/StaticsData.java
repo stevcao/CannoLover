@@ -77,6 +77,8 @@ public class StaticsData {
 
 		LensGroup groupWide = new LensGroup();
 		groupWide.name = "广角变焦";
+		groupWide.icon = R.drawable.icon_lens_16_35f28;
+		groupWide.description = "能够拍摄出广阔的范围，可以奇特的视角进行大胆的表现";
 
 		groupWide.lensList.add(len8_15);
 		groupWide.lensList.add(len10_18);
@@ -176,6 +178,8 @@ public class StaticsData {
 		
 		LensGroup standardGroup = new LensGroup();
 		standardGroup.name = "标准变焦";
+		standardGroup.icon = R.drawable.icon_len_28_135;
+		standardGroup.description = "一支镜头的焦距范围能足以应对大部分的被摄体";
 		
 		standardGroup.lensList.add(len15_85);
 		standardGroup.lensList.add(len17_55);
@@ -302,6 +306,8 @@ public class StaticsData {
 		
 		LensGroup farGroup = new LensGroup();
 		farGroup.name = "远摄变焦";
+		farGroup.icon = R.drawable.icon_len_100_400;
+		farGroup.description = "能将远处的物体拍摄得很大，可以表现出魄力的变焦镜头";
 		farGroup.lensList.add(len18_200);
 		farGroup.lensList.add(len28_300);
 		farGroup.lensList.add(len55_250STM);
@@ -334,6 +340,8 @@ public class StaticsData {
 		
 		LensGroup veryFarGroup = new LensGroup();
 		veryFarGroup.name = "超远摄变焦";
+		veryFarGroup.icon = R.drawable.icon_len_200_400;
+		veryFarGroup.description = "拉近拍大更远处被摄体的高画质超远摄变焦镜头";
 		veryFarGroup.lensList.add(len200_400);
 		
 		lensGroupList.add(veryFarGroup);
