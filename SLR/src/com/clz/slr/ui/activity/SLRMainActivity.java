@@ -17,7 +17,7 @@ import android.view.ViewConfiguration;
 import android.view.Window;
 
 import com.clz.cannon.lens.R;
-import com.clz.slr.ui.fragment.CameraFragment;
+import com.clz.slr.ui.fragment.LensCatigoryFragment;
 import com.clz.slr.ui.fragment.TeachFragment;
 import com.clz.slr.ui.fragment.ShareFragment;
 import com.clz.slr.widget.PagerSlidingTabStrip;
@@ -34,7 +34,7 @@ public class SLRMainActivity extends FragmentActivity {
 	/**
 	 * 聊天界面的Fragment
 	 */
-	private CameraFragment chatFragment;
+	private LensCatigoryFragment chatFragment;
 
 	/**
 	 * 发现界面的Fragment
@@ -117,7 +117,7 @@ public class SLRMainActivity extends FragmentActivity {
 			switch (position) {
 			case 0:
 				if (chatFragment == null) {
-					chatFragment = new CameraFragment();
+					chatFragment = new LensCatigoryFragment();
 				}
 				return chatFragment;
 			case 1:

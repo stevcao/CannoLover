@@ -6,6 +6,7 @@ import java.util.List;
 import com.clz.cannon.lens.R;
 import com.clz.slr.common.Constants;
 import com.clz.slr.data.Lens;
+import com.clz.slr.data.StaticsData;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -16,34 +17,60 @@ import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class LensListActivity extends Activity {
 
+	public static final String KEY_CATIGORY_POSITION = "cat_position";
+	public static final String KEY_TITLE = "title";
+	
+	private int mCatPosition;
+	private LensAdapter mLensAdapter;
+	private ListView mLenListView;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lens_list);
+		initView();
+		initData();
 	}
 
+	private void initView() {
+		mLenListView = (ListView) findViewById(R.id.lens_list);
+	}
+	
+	private void initData() {
+		mCatPosition = getIntent().getIntExtra(KEY_CATIGORY_POSITION, -1);
+		String title = getIntent().getStringExtra(KEY_TITLE);
+		setTitle(title);
+		if (mCatPosition != -1) {
+			List<Lens> list = StaticsData.lensGroupList.get(mCatPosition).lensList;
+			mLensAdapter = new LensAdapter(list);
+		}
+		if (mLensAdapter != null) {
+			mLenListView.setAdapter(mLensAdapter);
+		}
+	}
+	
 	class LensAdapter extends BaseAdapter {
-
-		private static final int DATA_TYPE_CATIGARY = 1;
-		private static final int DATA_TYPE_LEN = 2;
 
 		private List<Lens> mDataList = new ArrayList<Lens>();
 		
-		public LensAdapter(List<Lens> groupList) {
-			updateData(groupList);
+		public LensAdapter(List<Lens> lensList) {
+			updateData(lensList);
 		}
 
 		/**
 		 * 更新数据
 		 * 
-		 * @param groupList
+		 * @param lensList
 		 */
-		public void updateData(List<Lens> groupList) {
+		public void updateData(List<Lens> lensList) {
 			mDataList.clear();
+			mDataList = lensList;
+			notifyDataSetChanged();
 		}
 
 		@Override
@@ -64,7 +91,6 @@ public class LensListActivity extends Activity {
 		@Override
 		public View getView(int position, View converView, ViewGroup arg2) {
 			ViewHolder holder = null;
-			;
 			if (converView == null) {
 				converView = LayoutInflater.from(getBaseContext()).inflate(
 						R.layout.list_item_lens, null);

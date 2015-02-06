@@ -22,7 +22,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="5dp">
 
             <TextView
                 android:id="@+id/ca_name"
@@ -49,6 +50,7 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="60dp"
+            android:paddingLeft="15dp"
             android:src="@drawable/ie_arrow1_normal" />
     </LinearLayout>
 

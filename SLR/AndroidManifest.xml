@@ -24,10 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
+        <activity
             android:name="com.clz.slr.ui.activity.LensInfoActivity"
-            android:screenOrientation="portrait"
-            ></activity>
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.clz.slr.ui.activity.LensListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>

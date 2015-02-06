@@ -13,5 +13,7 @@ import com.clz.db.Entity;
  */
 public class LensGroup extends Entity {
 	public String name;
+	public String description;
+	public int icon = -1;
 	public List<Lens> lensList = new ArrayList<Lens>();
 }
