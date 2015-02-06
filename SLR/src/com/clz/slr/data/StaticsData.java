@@ -19,7 +19,7 @@ public class StaticsData {
 		/**
 		 * ################################广角变焦###############################
 		 */
-		
+
 		// 佳能EF 17-40mm f/4L USM
 		Lens len17_40 = new Lens();
 		len17_40.name = "佳能EF 17-40mm f/4L USM";
@@ -88,7 +88,6 @@ public class StaticsData {
 		groupWide.lensList.add(len17_40);
 		lensGroupList.add(groupWide);
 
-		
 		/**
 		 * ################################标准变焦###############################
 		 */
@@ -112,75 +111,75 @@ public class StaticsData {
 		len17_85.iconid = R.drawable.icon_len_17_85;
 		len17_85.description = "覆盖从广角到中远摄的宽广焦段、专为APS-C画幅EOS数码单反相机设计的标准变焦镜头。作为标准变焦镜头，拥有约5倍的高变焦比，适于风光、人像摄影以及抓拍等多种领域。";
 		len17_85.htmlPath = "file:///android_asset/details/html/standard/17-85/detail.html";
-		
+
 		// EF-S 18-55mm f/3.5-5.6 IS STM
 		Lens len18_55 = new Lens();
 		len18_55.name = "EF-S 18-55mm f/3.5-5.6 IS STM";
 		len18_55.iconid = R.drawable.icon_len_18_55;
 		len18_55.description = "一款APS-C画幅专用的小型标准变焦镜头，以35mm规格换算，可覆盖相当于约29mm的广角端至约88mm的中远摄端的广阔焦段。";
 		len18_55.htmlPath = "file:///android_asset/details/html/standard/18-55/detail.html";
-		
+
 		// EF-S 18-55mm f/3.5-5.6 IS II
 		Lens len18_55II = new Lens();
 		len18_55II.name = "EF-S 18-55mm f/3.5-5.6 IS II";
 		len18_55II.iconid = R.drawable.icon_len_18_55ii;
 		len18_55II.description = "这是一款小巧轻便的标准变焦镜头，换算成35mm规格能够覆盖相当于约29-88mm的视角。通过优化配置高精度PMo（树脂成型）非球面镜片，可以对球面像差等多种像差进行有效补偿，实现了全焦段的高画质。";
 		len18_55II.htmlPath = "file:///android_asset/details/html/standard/18-55II/detail.html";
-		
+
 		// EF-S 18-135mm f/3.5-5.6 IS STM
 		Lens len18_135STM = new Lens();
 		len18_135STM.name = "EF-S 18-135mm f/3.5-5.6 IS STM";
 		len18_135STM.iconid = R.drawable.icon_len_18_135_stm;
 		len18_135STM.description = "EF-S 18-135mm f/3.5-5.6 IS STM是一款高倍率变焦镜头，安装在APS-C画幅EOS数码相机上时以35mm规格换算可获得相当于约29-216mm的视角。";
 		len18_135STM.htmlPath = "file:///android_asset/details/html/standard/18-135STM/detail.html";
-		
+
 		// EF-S 18-135mm f/3.5-5.6 IS
 		Lens len18_135 = new Lens();
 		len18_135.name = "EF-S 18-135mm f/3.5-5.6 IS";
 		len18_135.iconid = R.drawable.icon_len_18_135;
 		len18_135.description = "具有高达约7.5倍变焦比的高倍率标准变焦镜头，其焦距换算为35mm规格后能够覆盖约29-216mm的视角。搭载的IS影像稳定器能够在广角端到远摄端的全焦段都得到最大相当于约4级快门速度的手抖动补偿效果，并可自动识别普通拍摄与追随拍摄，选择合适的IS模式。";
 		len18_135.htmlPath = "file:///android_asset/details/html/standard/18-135/detail.html";
-		
+
 		// EF 24-70mm f/2.8L II USM
 		Lens len24_70II = new Lens();
 		len24_70II.name = "EF 24-70mm f/2.8L II USM";
 		len24_70II.iconid = R.drawable.icon_len_24_70ii;
 		len24_70II.description = "覆盖24mm广角到70mm中远摄焦段的L级标准变焦镜头。F2.8的最大光圈在整个变焦范围内保持明亮，可应对风光、人像摄影等广泛领域。";
 		len24_70II.htmlPath = "file:///android_asset/details/html/standard/24-70II/detail.html";
-		
+
 		// EF 24-70mm f/4L IS USM
 		Lens len24_70IS = new Lens();
 		len24_70IS.name = "EF 24-70mm f/4L IS USM";
 		len24_70IS.iconid = R.drawable.icon_len_24_70is;
 		len24_70IS.description = "EF 24-70mm f/4L IS USM是覆盖从24mm广角到70mm中远摄焦段的L级标准变焦镜头。广泛适用于风光、抓拍和人像等多种拍摄场景，通过操作变焦环还可以切换到微距模式※1，进行最大放大倍率约0.7倍的微距拍摄。";
 		len24_70IS.htmlPath = "file:///android_asset/details/html/standard/24-70IS/detail.html";
-		
+
 		// EF 24−105mm f/3.5-5.6 IS STM
 		Lens len24_105STM = new Lens();
 		len24_105STM.name = "EF 24−105mm f/3.5-5.6 IS STM";
 		len24_105STM.iconid = R.drawable.icon_len_24_105stm;
 		len24_105STM.description = "这是一款性价比很高的标准变焦镜头，焦距覆盖广角到中远摄，可以应对风景以及人像等多种场景的拍摄。在实现了接近L镜头的高画质的同时，还保持了轻量化设计，机身仅约525克。";
 		len24_105STM.htmlPath = "file:///android_asset/details/html/standard/24-105STM/detail.html";
-		
+
 		// EF 24-105mm f/4L IS USM
 		Lens len24_105USM = new Lens();
 		len24_105USM.name = "EF 24-105mm f/4L IS USM";
 		len24_105USM.iconid = R.drawable.icon_len_24_105usm;
 		len24_105USM.description = "覆盖从24mm广角到105mm中远摄焦段的L级标准变焦镜头。采用了恒定F4的最大光圈设计，使镜头口径得以缩小，同时较好地抑制了球面像差等的发生。不但覆盖了变焦比约4.4倍的宽广焦段，还实现了镜身整体的小型化。";
 		len24_105USM.htmlPath = "file:///android_asset/details/html/standard/24-105USM/detail.html";
-		
+
 		// EF 28-135mm f/3.5-5.6 IS USM
 		Lens len28_135 = new Lens();
 		len28_135.name = "EF 28-135mm f/3.5-5.6 IS USM";
 		len28_135.iconid = R.drawable.icon_len_28_135;
 		len28_135.description = "变焦比约为5倍、覆盖28mm广角端且具有宽广焦段的标准变焦镜头。搭载有可在整个变焦范围内发挥较高补偿效果的手抖动补偿机构IS影像稳定器，使手持拍摄领域得到进一步扩展。镜头驱动方面采用了环形USM超声波马达，对焦时几乎没有动作音。";
 		len28_135.htmlPath = "file:///android_asset/details/html/standard/28-135/detail.html";
-		
+
 		LensGroup standardGroup = new LensGroup();
 		standardGroup.name = "标准变焦";
-		standardGroup.icon = R.drawable.icon_len_28_135;
+		standardGroup.icon = R.drawable.icon_len_24_70is;
 		standardGroup.description = "一支镜头的焦距范围能足以应对大部分的被摄体";
-		
+
 		standardGroup.lensList.add(len15_85);
 		standardGroup.lensList.add(len17_55);
 		standardGroup.lensList.add(len17_85);
@@ -194,116 +193,114 @@ public class StaticsData {
 		standardGroup.lensList.add(len24_105USM);
 		standardGroup.lensList.add(len28_135);
 		lensGroupList.add(standardGroup);
-		
-		
-		//########################## 远摄变焦镜头#####################3
-		
+
+		// ########################## 远摄变焦镜头#####################3
+
 		// EF-S 18-200mm f/3.5-5.6 IS
 		Lens len18_200 = new Lens();
 		len18_200.name = "EF-S 18-200mm f/3.5-5.6 IS";
 		len18_200.iconid = R.drawable.icon_len_18_200;
 		len18_200.description = "覆盖从广角到远摄焦段约11倍的高变焦比、搭载强大手抖动补偿机构的高倍率变焦镜头。专为采用APS-C画幅图像感应器的EOS数码单反相机研发而成。";
 		len18_200.htmlPath = "file:///android_asset/details/html/far/18-200/detail.html";
-		
+
 		// EF 28-300mm f/3.5-5.6L IS USM
 		Lens len28_300 = new Lens();
 		len28_300.name = "EF 28-300mm f/3.5-5.6L IS USM";
 		len28_300.iconid = R.drawable.icon_len_28_300;
 		len28_300.description = "覆盖从28mm广角端到300mm远摄端的L级高倍率变焦镜头。约11倍的变焦比，可支持从风光摄影到运动摄影等广泛的拍摄领域。采用3片非球面镜片和3片UD（超低色散）镜片，能够在整个变焦范围内获得符合L级镜头的高画质。";
 		len28_300.htmlPath = "file:///android_asset/details/html/far/28-300/detail.html";
-		
+
 		// EF-S 55-250mm f/4-5.6 IS STM
 		Lens len55_250STM = new Lens();
 		len55_250STM.name = "EF-S 55-250mm f/4-5.6 IS STM";
 		len55_250STM.iconid = R.drawable.icon_len_55_250;
 		len55_250STM.description = "EF-S 55-250mm f/4-5.6 IS STM是采用STM步进马达驱动自动对焦的小型轻量远摄变焦镜头。由于采用了STM步进马达，除静止图像外，在短片拍摄中自动对焦也安静流畅。";
 		len55_250STM.htmlPath = "file:///android_asset/details/html/far/55-250STM/detail.html";
-		
+
 		// EF-S 55-250mm f/4-5.6 IS II
 		Lens len55_250II = new Lens();
 		len55_250II.name = "EF-S 55-250mm f/4-5.6 IS II";
 		len55_250II.iconid = R.drawable.icon_len_55_250;
 		len55_250II.description = "这是一款35mm规格下可以覆盖约88-400mm视角的远摄变焦镜头。此镜头拥有约4.5倍的变焦比，但依然保持了小巧轻便的镜身，非常适于外拍携带。";
 		len55_250II.htmlPath = "file:///android_asset/details/html/far/55-250II/detail.html";
-		
+
 		// EF 70-200mm f/2.8L IS II USM
 		Lens len70_200F28ISIISUM = new Lens();
 		len70_200F28ISIISUM.name = "EF 70-200mm f/2.8L IS II USM";
 		len70_200F28ISIISUM.iconid = R.drawable.icon_len_70_200;
 		len70_200F28ISIISUM.description = "EF 70-200mm f/2.8L IS II USM是专业摄影师和摄影发烧友常用远摄变焦镜头的人气款EF 70-200mm f/2.8L IS USM的进化版，光圈大，十分明亮。在体育摄影、人像摄影、风光摄影等领域均有广泛应用。";
 		len70_200F28ISIISUM.htmlPath = "file:///android_asset/details/html/far/70-200F28II/detail.html";
-		
+
 		// EF 70-200mm f/2.8L USM
 		Lens len70_200F28USM = new Lens();
 		len70_200F28USM.name = "EF 70-200mm f/2.8L USM";
 		len70_200F28USM.iconid = R.drawable.icon_len_70_200is;
 		len70_200F28USM.description = "覆盖从70mm到200mm常用焦段的大光圈远摄变焦镜头。未搭载手抖动补偿机构IS影像稳定器，镜头结构设计简洁。与EF 70-200mm f/2.8L IS II USM相比，此款镜头在最大直径、长度以及重量方面略显小型、轻便。";
 		len70_200F28USM.htmlPath = "file:///android_asset/details/html/far/70-200F28USM/detail.html";
-		
+
 		// EF 70-200mm f/4L IS USM
 		Lens len70_200F4ISUSM = new Lens();
 		len70_200F4ISUSM.name = "EF 70-200mm f/4L IS USM";
 		len70_200F4ISUSM.iconid = R.drawable.icon_len_70_200f4;
 		len70_200F4ISUSM.description = "这是一款具有出色便携性的高性能L级远摄变焦镜头。在颇受好评的EF 70-200mm f/4L USM基础上，增添了高性能的手抖动补偿机构IS影像稳定器，实现了更高的机动性。";
 		len70_200F4ISUSM.htmlPath = "file:///android_asset/details/html/far/70-200F40IS/detail.html";
-		
+
 		// EF 70-200mm f/4L USM
 		Lens len70_200F4USM = new Lens();
 		len70_200F4USM.name = "EF 70-200mm f/4L USM";
 		len70_200F4USM.iconid = R.drawable.icon_len_70_200f4;
 		len70_200F4USM.description = "具有出色便携性的L级远摄变焦镜头。在佳能70-200mm系列镜头中镜身最小且重量最轻，性价比较为出众。镜头基本结构与EF 70-200mm f/4L IS USM大致相同，二者的区别在于是否搭载手抖动补偿机构。";
 		len70_200F4USM.htmlPath = "file:///android_asset/details/html/far/70-200F40/detail.html";
-		
+
 		// EF 70-300mm f/4-5.6L IS USM
 		Lens len70_300LISUSM = new Lens();
 		len70_300LISUSM.name = "EF 70-300mm f/4-5.6L IS USM";
 		len70_300LISUSM.iconid = R.drawable.icon_len_70_300l;
 		len70_300LISUSM.description = "作为一款可覆盖70mm至300mm宽广焦距范围的L级远摄变焦镜头，当搭配APS-C画幅EOS数码相机使用时可获得相当于约112-480mm的超远摄视角效果。";
 		len70_300LISUSM.htmlPath = "file:///android_asset/details/html/far/70-300L/detail.html";
-		
-		
+
 		// EF 70-300mm f/4.5-5.6 DO IS USM
 		Lens len70_300DOISUSM = new Lens();
 		len70_300DOISUSM.name = "EF 70-300mm f/4.5-5.6 DO IS USM";
 		len70_300DOISUSM.iconid = R.drawable.icon_len_70_300do;
 		len70_300DOISUSM.description = "搭载有DO多层衍射光学元件的轻便型高画质远摄变焦镜头。镜身全长仅约99.9毫米，与标准变焦镜头大致相同。";
 		len70_300DOISUSM.htmlPath = "file:///android_asset/details/html/far/70-300DO/detail.html";
-		
+
 		// EF 70-300mm f/4-5.6 IS USM
 		Lens len70_300ISUSM = new Lens();
 		len70_300ISUSM.name = "EF 70-300mm f/4-5.6 IS USM";
 		len70_300ISUSM.iconid = R.drawable.icon_len_70_300;
 		len70_300ISUSM.description = "一款尺寸适当、价格适中且能够体验真正远摄乐趣的远摄变焦镜头。搭配APS-C画幅EOS数码相机，可获得相当于约112-480mm的视角，能够充分拉近被摄体，拍出有冲击力的照片。";
 		len70_300ISUSM.htmlPath = "file:///android_asset/details/html/far/70-300/detail.html";
-		
+
 		// EF 75-300mm f/4-5.6 III USM
 		Lens len75_300IIIUSM = new Lens();
 		len75_300IIIUSM.name = "EF 75-300mm f/4-5.6 III USM";
 		len75_300IIIUSM.iconid = R.drawable.icon_len_75_300;
 		len75_300IIIUSM.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头驱动方面采用了微型USM超声波马达，实现了安静的自动对焦。";
 		len75_300IIIUSM.htmlPath = "file:///android_asset/details/html/far/75-300USM/detail.html";
-		
+
 		// EF 75-300mm f/4-5.6 III
 		Lens len75_300III = new Lens();
 		len75_300III.name = "EF 75-300mm f/4-5.6 III";
 		len75_300III.iconid = R.drawable.icon_len_75_300;
 		len75_300III.description = "覆盖从75mm中远摄到300mm超远摄端的小型轻量远摄变焦镜头。镜头重量较轻约480克，加之镜身无起伏的设计，具有出众的携带性。";
 		len75_300III.htmlPath = "file:///android_asset/details/html/far/75-300/detail.html";
-		
+
 		// EF 100-400mm f/4.5-5.6L IS II USM
 		Lens len100_400II = new Lens();
 		len100_400II.name = "EF 100-400mm f/4.5-5.6L IS II USM";
 		len100_400II.iconid = R.drawable.icon_len_100_400;
 		len100_400II.description = "覆盖从100mm到超远摄400mm焦距范围的L级远摄变焦镜头。继承得到专业摄影师好评的前款机型的性能并大幅提高了画质和操作性。";
 		len100_400II.htmlPath = "file:///android_asset/details/html/far/100-400II/detail.html";
-		
+
 		// EF 100-400mm f/4.5-5.6L IS USM
 		Lens len100_400 = new Lens();
 		len100_400.name = "EF 100-400mm f/4.5-5.6L IS USM";
 		len100_400.iconid = R.drawable.icon_len_100_400;
 		len100_400.description = "具有推拉式变焦机构和约4倍变焦比的正宗超远摄变焦镜头。在APS-C画幅下可覆盖相当于约160-640mm的视角范围，能够将更远处的小被摄体拉近拍摄。";
 		len100_400.htmlPath = "file:///android_asset/details/html/far/100-400/detail.html";
-		
+
 		LensGroup farGroup = new LensGroup();
 		farGroup.name = "远摄变焦";
 		farGroup.icon = R.drawable.icon_len_100_400;
@@ -312,39 +309,147 @@ public class StaticsData {
 		farGroup.lensList.add(len28_300);
 		farGroup.lensList.add(len55_250STM);
 		farGroup.lensList.add(len55_250II);
-		
+
 		farGroup.lensList.add(len70_200F28USM);
 		farGroup.lensList.add(len70_200F28ISIISUM);
 		farGroup.lensList.add(len70_200F4USM);
 		farGroup.lensList.add(len70_200F4ISUSM);
-		
+
 		farGroup.lensList.add(len70_300LISUSM);
 		farGroup.lensList.add(len70_300DOISUSM);
 		farGroup.lensList.add(len70_300ISUSM);
-		
+
 		farGroup.lensList.add(len75_300IIIUSM);
 		farGroup.lensList.add(len75_300III);
 		farGroup.lensList.add(len100_400II);
 		farGroup.lensList.add(len100_400);
 		lensGroupList.add(farGroup);
-		
-		
-		//#######################超远摄变焦########################3
-		
+
+		// #######################超远摄变焦########################3
+
 		// EF 200-400mm f/4L IS USM EXTENDER 1.4X
 		Lens len200_400 = new Lens();
 		len200_400.name = "EF 200-400mm f/4L IS USM EXTENDER 1.4X";
 		len200_400.iconid = R.drawable.icon_len_200_400;
 		len200_400.description = "EF 200-400mm f/4L IS USM EXTENDER 1.4X内置增倍镜，是一款可广泛覆盖约200-560mm焦段的超远摄变焦镜头。对 于体育或新闻摄影，以及需以超远摄焦段拍摄的野外摄影等，此镜头可谓非常方便，能够应对此类不便频繁更换镜头的拍摄场景。";
 		len200_400.htmlPath = "file:///android_asset/details/html/very_far/200-400/detail.html";
-		
+
 		LensGroup veryFarGroup = new LensGroup();
 		veryFarGroup.name = "超远摄变焦";
 		veryFarGroup.icon = R.drawable.icon_len_200_400;
 		veryFarGroup.description = "拉近拍大更远处被摄体的高画质超远摄变焦镜头";
 		veryFarGroup.lensList.add(len200_400);
-		
+
 		lensGroupList.add(veryFarGroup);
+
+		// ###########################################################
+		// 定焦
+		// ###########################################################
+
+		// ############################广角定焦#########################
+
+		// EF 14mm f/2.8L II USM
+		Lens len14 = new Lens();
+		len14.name = "EF 14mm f/2.8L II USM";
+		len14.iconid = R.drawable.icon_len_200_400;
+		len14.description = "EF镜头中除鱼眼镜头之外视角最大的超广角定焦镜头。对角线视角达约114°，可将广阔的风景收入一张照片，还能近距离拍摄超高层建筑的全景。";
+		len14.htmlPath = "file:///android_asset/details/html/widefocus/14/detail.html";
+
+		// EF 20mm f/2.8 USM
+		Lens len20 = new Lens();
+		len20.name = "EF 20mm f/2.8 USM";
+		len20.iconid = R.drawable.icon_len_200_400;
+		len20.description = "能够利用自然视角进行风光摄影、抓拍等，适用于广泛领域拍摄的超广角定焦镜头。";
+		len20.htmlPath = "file:///android_asset/details/html/widefocus/20/detail.html";
+
+		// EF 24mm f/1.4L II USM
+		Lens len24II = new Lens();
+		len24II.name = "EF 24mm f/1.4L II USM";
+		len24II.iconid = R.drawable.icon_len_200_400;
+		len24II.description = "具有F1.4明亮最大光圈的高性能L级广角定焦镜头。为实现F1.4的明亮最大光圈，采用了先进的光学技术。";
+		len24II.htmlPath = "file:///android_asset/details/html/widefocus/24II/detail.html";
+
+		// EF 24mm f/2.8 IS USM
+		Lens len24USM = new Lens();
+		len24USM.name = "EF 24mm f/2.8 IS USM";
+		len24USM.iconid = R.drawable.icon_len_200_400;
+		len24USM.description = "具有50mm标准镜头约2倍视角的广角定焦镜头。外形小巧方便携带，对应从风光、人像摄影到抓拍等多种领域。";
+		len24USM.htmlPath = "file:///android_asset/details/html/widefocus/24USM/detail.html";
+
+		// EF-S 24mm f/2.8 STM
+		Lens len24STM = new Lens();
+		len24STM.name = "EF-S 24mm f/2.8 STM";
+		len24STM.iconid = R.drawable.icon_len_200_400;
+		len24STM.description = "该镜头厚度仅约22.8毫米，重约125克，是EF-S镜头中的首款自动对焦饼干镜头。";
+		len24STM.htmlPath = "file:///android_asset/details/html/widefocus/24STM/detail.html";
+
+		// EF 28mm f/1.8 USM
+		Lens len2818 = new Lens();
+		len2818.name = "EF 28mm f/1.8 USM";
+		len2818.iconid = R.drawable.icon_len_200_400;
+		len2818.description = "可搭配全画幅相机的大光圈广角定焦镜头。镜头结构为9组10片，光圈后部配置了非球面镜片，可有效补偿球面像差与歪曲像差。";
+		len2818.htmlPath = "file:///android_asset/details/html/widefocus/2818/detail.html";
+
+		// EF 28mm f/2.8 IS USM
+		Lens len2828 = new Lens();
+		len2828.name = "EF 28mm f/2.8 IS USM";
+		len2828.iconid = R.drawable.icon_len_200_400;
+		len2828.description = "适用于从风光、人像摄影到抓拍等多种领域的广角定焦镜头。因为其与超广角镜头相比变形较小的特点，也适合拍摄以直线为基础的建筑物等。";
+		len2828.htmlPath = "file:///android_asset/details/html/widefocus/2828/detail.html";
+
+		// EF 35mm f/1.4L USM
+		Lens len3514 = new Lens();
+		len3514.name = "EF 35mm f/1.4L USM";
+		len3514.iconid = R.drawable.icon_len_200_400;
+		len3514.description = "具有明亮最大光圈的L级广角定焦镜头。通过取景器可获得明亮的视野，同时镜头设计重视虚化效果，符合L级镜头的标准。";
+		len3514.htmlPath = "file:///android_asset/details/html/widefocus/3514/detail.html";
+
+		// EF 35mm f/2 IS USM
+		Lens len3520 = new Lens();
+		len3520.name = "EF 35mm f/2 IS USM";
+		len3520.iconid = R.drawable.icon_len_200_400;
+		len3520.description = "EF 35mm f/2 IS USM是适用于风光、人像摄影和抓拍的广角定焦镜头。通过明亮的光圈F2和强大的手抖动补偿机构在暗光场景下也能轻松进行手持拍摄。";
+		len3520.htmlPath = "file:///android_asset/details/html/widefocus/3520/detail.html";
+
+		LensGroup wideFocusGroup = new LensGroup();
+		wideFocusGroup.name = "广角定焦";
+		wideFocusGroup.description = "能够拍摄出广阔的范围，变换拍摄角度能享受多种表现";
+		
+		wideFocusGroup.lensList.add(len14);
+		wideFocusGroup.lensList.add(len20);
+		wideFocusGroup.lensList.add(len24II);
+		wideFocusGroup.lensList.add(len24USM);
+		wideFocusGroup.lensList.add(len24STM);
+		wideFocusGroup.lensList.add(len2818);
+		wideFocusGroup.lensList.add(len2828);
+		wideFocusGroup.lensList.add(len3514);
+		wideFocusGroup.lensList.add(len3520);
+		
+		lensGroupList.add(wideFocusGroup);
+		
+		// ###########################标准定焦##########################
+
+		// ###########################中远摄定焦#########################
+
+		// ##########################远摄定焦###########################
+
+		// ##########################超远摄定焦#########################
+
+		// ###########################################################
+		// 特殊
+		// ###########################################################
+
+		// ###########################微距镜头##########################
+
+		// ###########################移轴镜头#########################
+
+		// #########################增倍镜###########################
+
+		// ###########################################################
+
+		// EF-M
+
+		// ###########################################################
 	}
 
 	static {
