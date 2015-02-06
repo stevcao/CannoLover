@@ -429,6 +429,45 @@ public class StaticsData {
 		
 		// ###########################标准定焦##########################
 
+		// EF 40mm f/2.8 STM
+		Lens len40 = new Lens();
+		len40.name = "EF 40mm f/2.8 STM";
+		len40.iconid = R.drawable.icon_len_200_400;
+		len40.description = "EF 40mm f/2.8 STM是对应全画幅的轻薄型标准定焦镜头。最大直径约68.2毫米，厚约22.8毫米，重量约130克，安装在相机上时只比机身手柄略突出一点。";
+		len40.htmlPath = "file:///android_asset/details/html/standardfocus/40/detail.html";
+		
+		// EF 50mm f/1.2L USM
+		Lens len5012 = new Lens();
+		len5012.name = "EF 50mm f/1.2L USM";
+		len5012.iconid = R.drawable.icon_len_200_400;
+		len5012.description = "最大光圈F1.2，一款相当明亮的L级标准定焦镜头。承继EF 50mm f/1.0L USM的理念，可应用于数码环境。";
+		len5012.htmlPath = "file:///android_asset/details/html/standardfocus/5012/detail.html";
+		
+		// EF 50mm f/1.4 USM
+		Lens len5014 = new Lens();
+		len5014.name = "EF 50mm f/1.4 USM";
+		len5014.iconid = R.drawable.icon_len_200_400;
+		len5014.description = "采用传统高斯光学设计，具有明亮最大光圈的标准定焦镜头。拥有稳定自然的视角，可根据拍摄距离以及被摄体的大小等实现丰富的表现形式。";
+		len5014.htmlPath = "file:///android_asset/details/html/standardfocus/5014/detail.html";
+		
+		// EF 50mm f/1.8 II
+		Lens len5018 = new Lens();
+		len5018.name = "EF 50mm f/1.8 II";
+		len5018.iconid = R.drawable.icon_len_200_400;
+		len5018.description = "重量仅为约130克的标准定焦镜头，非常小型轻量。从外部结构到卡口部分均为工程塑料构成，从而实现了镜头整体的大幅轻量化。";
+		len5018.htmlPath = "file:///android_asset/details/html/standardfocus/5018/detail.html";
+		
+		LensGroup standardFocusGroup = new LensGroup();
+		standardFocusGroup.name = "标准定焦";
+		standardFocusGroup.description = "一支镜头的焦距范围能足以应对大部分的被摄体";
+		
+		standardFocusGroup.lensList.add(len40);
+		standardFocusGroup.lensList.add(len5012);
+		standardFocusGroup.lensList.add(len5014);
+		standardFocusGroup.lensList.add(len5018);
+		
+		lensGroupList.add(standardFocusGroup);
+		
 		// ###########################中远摄定焦#########################
 
 		// ##########################远摄定焦###########################
